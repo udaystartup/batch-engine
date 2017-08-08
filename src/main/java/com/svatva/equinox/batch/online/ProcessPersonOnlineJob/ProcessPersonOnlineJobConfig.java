@@ -40,9 +40,6 @@ public class ProcessPersonOnlineJobConfig {
 
     @Autowired
     public StepBuilderFactory stepBuilderFactory;
-    
-    @Autowired
-    public JpaTransactionManager jpaTransactionManager;
      
 
     private static final Logger log = LoggerFactory.getLogger(ProcessPersonOnlineJobConfig.class);
