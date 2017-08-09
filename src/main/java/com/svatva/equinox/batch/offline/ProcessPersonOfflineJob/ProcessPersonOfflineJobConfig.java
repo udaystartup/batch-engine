@@ -76,7 +76,7 @@ public class ProcessPersonOfflineJobConfig {
    
 
     @Bean
-    public JpaItemWriter<Person> ProcessPersonOfflineJobWriter() {
+    public ItemWriter<Person> ProcessPersonOfflineJobWriter() {
     	
 //        writer.setItemSqlParameterSourceProvider(new BeanPropertyItemSqlParameterSourceProvider<Person>());
 //        writer.setSql("INSERT INTO people (first_name, last_name) VALUES (:firstName, :lastName)");
