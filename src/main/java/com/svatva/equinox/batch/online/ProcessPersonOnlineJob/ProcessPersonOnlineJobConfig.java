@@ -68,7 +68,7 @@ public class ProcessPersonOnlineJobConfig {
     }
 
     @Bean
-    public JpaItemWriter<Person> ProcessPersonOnlineJobWriter() {
+    public ItemWriter<Person> ProcessPersonOnlineJobWriter() {
 	log.info("Online Batch - Inside  ProcessPersonOnlineJobWriter");
 //        writer.setItemSqlParameterSourceProvider(new BeanPropertyItemSqlParameterSourceProvider<Person>());
 //        writer.setSql("INSERT INTO people (first_name, last_name) VALUES (:firstName, :lastName)");
